@@ -23,8 +23,4 @@ export class HeroesComponent implements OnInit {
         .subscribe(heroes => this.heroes = heroes);
   }
 
-  onSelect(hero: Hero) {
-    this.selectedHero = hero;
-  }
-
 }
